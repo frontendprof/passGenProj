@@ -57,9 +57,10 @@ label{
     padding:1rem;
     border:2px solid yellow;
     border-radius: 1rem;
-    height: 1.5rem;
+    height: 1.8rem;
     width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
+    word-break: break-all;
 }
