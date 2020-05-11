@@ -52,15 +52,33 @@ label{
 }
 
 .password-display{
-    background-color: white;
-    color:rgb(10, 189, 129);
+    background-color: rgb(155, 153, 153);
+    color:rgb(56, 231, 13);
     padding:1rem;
     border:2px solid yellow;
-    border-radius: 1rem;
-    height: 1.8rem;
+    border-radius: 2rem;
+    height: 1rem;
     width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     word-break: break-all;
+}
+
+.btn{
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid yellow;
+    color:rgb(34, 34, 236);
+    padding: .8rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background-color: rgb(235, 124, 124,.8);
+    border: 3px solid yellow;
+    
 }
