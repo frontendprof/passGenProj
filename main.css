@@ -42,6 +42,8 @@ label{
     font-weight: bold;
 }
 
+
+
 .characterAmountContainer{
     display: flex;
     align-items: center;
@@ -78,7 +80,7 @@ label{
 }
 
 .btn:hover{
-    background-color: rgb(235, 124, 124,.8);
+    background-color: rgba(253, 121, 121, 0.8);
     border: 3px solid yellow;
     
 }
