@@ -37,12 +37,13 @@ function genPassword(numberChars, upperIncld, numberIncld, symblIncld) {
   if (symblIncld) charCodes = charCodes.concat(SYMBOL_CASE_CODES);
 
   const passCharacters = [];
-  for (let i = 0; i < charNumber.length; i++) {
+  for (let i = 0; i < numberChars; i++) {
     const characterCode = charCodes[Math.floor(Math.random() * charCodes.length)];
     passCharacters.push(String.fromCharCode(characterCode));
 
   }
   return passCharacters.join('');
+
 
 }
 
